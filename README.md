@@ -146,7 +146,7 @@ Este é um projeto interno da Nordeste Locações. Para sugestões ou melhorias,
 ## 📞 Suporte
 
 - **Equipe NIT**: nit@nordesteloc.com.br
-- **Suporte técnico**: adm@nordesteloc.com.br
+
 
 ## 📄 Licença
 
