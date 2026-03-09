@@ -132,7 +132,7 @@ O portal utiliza a identidade visual da Nordeste Locações:
 
 O sistema envia notificações automáticas para:
 - Solicitante do projeto
-- Equipe NIT (rafael@nordesteloc.com.br, ricardo@nordesteloc.com.br)
+- Equipe NIT 
 - Stakeholders relevantes
 
 ## 🔐 Acesso Administrativo
