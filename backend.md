@@ -116,3 +116,13 @@ Adicione ao seu arquivo `.env`:
 VITE_SUPABASE_URL=https://seu-projeto.supabase.co
 VITE_SUPABASE_ANON_KEY=sua-chave-anonima-aqui
 ```
+## 6. Senha de acesso 
+| Nome Completo    | Departamento                   | Email Corporativo                                                               | Unidade           | Usuário          | Senha         |
+| ---------------- | ------------------------------ | ------------------------------------------------------------------------------- | ----------------- | ---------------- | ------------- |
+| João Victor      | Financeiro                     | [financeiro1@nordesteloc.com.br](mailto:financeiro1@nordesteloc.com.br)         | Todas as unidades | joao.victor      | Financeiro123 |
+| Lucas Oliveira   | Logística / Almoxarifado       | [almoxarifado1@nordesteloc.com.br](mailto:almoxarifado1@nordesteloc.com.br)     | Todas as unidades | lucas.oliveira   | Logistica123  |
+| Vitor Fernandes  | Manutenção / ASD / PCM         | [vitor.fernandes@nordesteloc.com.br](mailto:vitor.fernandes@nordesteloc.com.br) | Todas as unidades | vitor.fernandes  | Manutencao123 |
+| Nathacha Licya   | Comercial                      | [nathacha.licya@nordesteloc.com.br](mailto:nathacha.licya@nordesteloc.com.br)   | Todas as unidades | nathacha.licya   | Comercial123  |
+| Felipe Reis      | Marketing                      | [marketing@nordesteloc.com.br](mailto:marketing@nordesteloc.com.br)             | Todas as unidades | felipe.reis      | Marketing123  |
+| Erika Rizza      | Gente e Gestão (RH / DP / NIT) | [adm@nordesteloc.com.br](mailto:adm@nordesteloc.com.br)                         | Todas as unidades | erika.rizza      | Gestao123     |
+| Cezar Calandrini | Fiscal e Contábil              | [fiscal@nordesteloc.com.br](mailto:fiscal@nordesteloc.com.br)                   | Todas as unidades | cezar.calandrini | Fiscal123     |
