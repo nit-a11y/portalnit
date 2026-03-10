@@ -237,7 +237,7 @@ export default function App() {
                 <div className="absolute top-0 right-0 w-1/2 h-full opacity-10 pointer-events-none">
                   <div className="absolute inset-0 bg-gradient-to-l from-nit-red to-transparent"></div>
                   <img 
-                    src="https://picsum.photos/seed/tech/800/600" 
+                    src="https://raw.githubusercontent.com/nit-a11y/portalnit/refs/heads/main/nit%20-%20tema%20(2).png" 
                     alt="Background" 
                     className="w-full h-full object-cover grayscale"
                     referrerPolicy="no-referrer"
@@ -898,6 +898,50 @@ export default function App() {
           )}
         </AnimatePresence>
       </main>
+
+      {/* Footer */}
+      <footer className="bg-nit-dark text-white mt-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
+            <div>
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 bg-nit-red rounded-lg flex items-center justify-center">
+                  <Lightbulb size={20} />
+                </div>
+                <span
+                  className="text-2xl font-black tracking-tighter cursor-pointer select-none"
+                  onClick={handleNitClick} // gatilho admin
+                >
+                  NIT
+                </span>
+              </div>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                Núcleo de Inteligência e Tecnologia da Nordeste Locações. 
+                Transformando processos em soluções digitais.
+              </p>
+            </div>
+            <div>
+              <h4 className="font-bold text-sm uppercase tracking-widest text-gray-400 mb-4">Navegação</h4>
+              <ul className="space-y-3">
+                <li><button onClick={() => setView('home')} className="text-gray-300 hover:text-white transition-colors text-sm">Início</button></li>
+                <li><button onClick={() => setView('projects')} className="text-gray-300 hover:text-white transition-colors text-sm">Projetos</button></li>
+                <li><button onClick={() => setView('form')} className="text-gray-300 hover:text-white transition-colors text-sm">Solicitar Projeto</button></li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="font-bold text-sm uppercase tracking-widest text-gray-400 mb-4">Contato</h4>
+              <ul className="space-y-3 text-sm text-gray-300">
+                <li className="flex items-center gap-2"><Mail size={14} /> nit@nordesteloc.com.br</li>
+                <li className="flex items-center gap-2"><Building2 size={14} /> Nordeste Locações</li>
+              </ul>
+            </div>
+          </div>
+          <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+            <p className="text-gray-500 text-xs">© {new Date().getFullYear()} NIT — Nordeste Locações. Todos os direitos reservados.</p>
+            <p className="text-gray-600 text-xs">v1.0.0</p>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
