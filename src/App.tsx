@@ -420,7 +420,7 @@ export default function App() {
               <div className="relative rounded-3xl overflow-hidden bg-nit-dark text-white p-8 md:p-16 mb-20 shadow-2xl">
                 <div className="absolute top-0 right-0 w-1/2 h-full opacity-10 pointer-events-none">
                   <div className="absolute inset-0 bg-gradient-to-l from-nit-red to-transparent"></div>
-                  <img src="https://picsum.photos/seed/tech/800/600" alt="Background" className="w-full h-full object-cover grayscale" referrerPolicy="no-referrer" />
+                  <img src="https://raw.githubusercontent.com/nit-a11y/portalnit/refs/heads/main/nit%20-%20tema%20(2).png" alt="Background" className="w-full h-full object-cover grayscale" referrerPolicy="no-referrer" />
                 </div>
                 <div className="relative z-10 max-w-2xl">
                   <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.2 }} className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-nit-red/20 border border-nit-red/30 text-nit-red text-xs font-bold uppercase tracking-wider mb-6">
